@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
+    <title>Document</title>
+</head>
+<body>
+  <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-2bc94294-2a89-4780-b3de-1ee058e41d77"></div> -->
+    <nav class="navbar"></nav>
+
+    <section class="contact-us">
+      <div class="contact-us-hero-section">
+        <div class="contact-us-box">
+            <div class="our-address">
+                <div class="contact-logo">
+                    <a href=""><img src="image/graphiclogo.png" alt=""></a>
+                    <a href=""><img src="image/technical-service-logo.png" alt=""></a>
+                </div>
+
+            </div>
+            <div class="Get-a-quote">
+              
+                <form id="form" >
+                  <h1 class="Get-a-quote1">Get A Quote</h1>
+                    <div class="field">
+                      <!-- <label for="from_name">Name</label> -->
+                      <input type="text" name="from_name" id="from_name" placeholder="Name">
+                      <div class="underline"></div>
+                    </div>
+                    <div class="field">
+                      <!-- <label for="email_id">Email-id</label> -->
+                      <input type="text" name="email_id" id="email_id" placeholder="Email ID">
+                      <div class="underline"></div>
+                    </div>
+                    <div class="field">
+                      <!-- <label for="phone_number">Phone Number</label> -->
+                      <input type="text" name="phone_number" id="phone_number" placeholder="Phone Number">
+                      <div class="underline"></div>
+                    </div>
+                    <div class="field">
+                      <!-- <label for="message">Message</label> -->
+                      <input type="text" name="message" id="message" placeholder="Message">
+                      <div class="underline"></div>
+                    </div>
+                    <!-- <div class="field">
+                      <label for="reply_to">reply_to</label>
+                      <input type="text" name="reply_to" id="reply_to">
+                    </div>
+                   -->
+                    <input type="submit" id="button" value="Send Email" >
+                  </form>
+
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-section"></footer>
+  <script src="nav.js"></script>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('gozdUPwzbk9Fuw7s5')
+      </script> 
+      <script src="email.js"></script>
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>
