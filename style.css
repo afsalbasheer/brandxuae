@@ -649,7 +649,7 @@ footer{
     /* or 35px */
     text-align: justify;
     color: #4D5151;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .design-image{
     position: relative;
@@ -916,6 +916,7 @@ footer{
   max-width: 1300px;
   margin: auto;
   padding: 50px 30px;
+  height: 100%;
 }
 
 .lower-part-feature{
@@ -928,7 +929,7 @@ footer{
 
 .feature-card{
   width: 350px;
-  height: 341px;
+  height: 450px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -953,6 +954,10 @@ footer{
   background-color: #76B72A;
 }
 
+.feature-card img{
+  width: 85px;
+  height: 85px;
+}
  .feature-card-h3{
   margin-top: 10px;
   font-weight: 600;
@@ -1056,6 +1061,11 @@ footer{
   flex-direction: column;
   transform: rotateY(180deg);
 }
+.back-face p{
+  color: white;
+  font-size: 16px;
+}
+
 
 .card:hover .card-inner{
   transform: rotateY(-180deg);
