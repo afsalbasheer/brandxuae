@@ -88,6 +88,9 @@ ul li{
     right: 32px;
     top: 20px;
  }
+
+
+ 
 /* hero section  */
 .main-container{
     width: 100%;
@@ -492,7 +495,7 @@ footer{
 }
 .slide1:nth-child(2){
   background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
-  url(image/Technical/s2.jpg.crdownload) no-repeat center center/cover;
+  url(image/Technical/a2.jpg) no-repeat center center/cover;
 }
 .slide1:nth-child(3){
   background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
@@ -716,6 +719,7 @@ footer{
     padding: 50px 30px;
     /* padding-top: 50px; */
     margin: auto;
+    overflow: hidden;
   }
   .our-services-h2{
     color: white;
